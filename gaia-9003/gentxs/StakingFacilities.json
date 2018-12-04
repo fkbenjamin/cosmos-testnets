@@ -1,0 +1,48 @@
+{
+  "type": "auth/StdTx",
+  "value": {
+    "msg": [{
+      "type": "cosmos-sdk/MsgCreateValidator",
+      "value": {
+        "Description": {
+          "moniker": "SF",
+          "identity": "",
+          "website": "",
+          "details": ""
+        },
+        "Commission": {
+          "rate": "0.1000000000",
+          "max_rate": "0.2000000000",
+          "max_change_rate": "0.0100000000"
+        },
+        "delegator_address": "cosmos1pmntq5en2rgtr5rzr4e304efrve4lr439hkhhd",
+        "validator_address": "cosmosvaloper1pmntq5en2rgtr5rzr4e304efrve4lr43qrzzm7",
+        "pubkey": {
+          "type": "tendermint/PubKeyEd25519",
+          "value": "8pfpbIxBBiu88hpxS3CeRpv7kClEjl8SwVgckDNBGlE="
+        },
+        "delegation": {
+          "denom": "STAKE",
+          "amount": "10000"
+        }
+      }
+    }],
+    "fee": {
+      "amount": [{
+        "denom": "",
+        "amount": "0"
+      }],
+      "gas": "200000"
+    },
+    "signatures": [{
+      "pub_key": {
+        "type": "tendermint/PubKeySecp256k1",
+        "value": "ApdZiE2WRvoLDWAtOJMw3BrwTbXEBfEzoFEOFiswcnt6"
+      },
+      "signature": "NEdISRWQ17oPttIei1pxipTjinhs3emr3u+n12EeFFUTKoTfmtiZCZrINSoJSBhxgtPTjrUoFbxUnQa9etfIwA==",
+      "account_number": "0",
+      "sequence": "0"
+    }],
+    "memo": "9a0ca312f18563a3df23b2984c4a815a90ba5f9a@172.31.14.217:26656"
+  }
+}
